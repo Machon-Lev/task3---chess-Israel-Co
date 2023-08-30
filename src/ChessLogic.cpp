@@ -180,7 +180,7 @@ bool ChessLogic::checkIfInCheck(PLAYER player) const
 		return false;
 	}
 
-	//ChessSquare currSquare;
+	ChessSquare currSquare;
 	const Piece* currPiece;
 	for (int row = 0; row < BOARD_SIZE; ++row)
 		for (int col = 0; col < BOARD_SIZE; ++col)
